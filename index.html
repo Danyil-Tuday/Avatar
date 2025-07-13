@@ -6,56 +6,122 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Avatar UA</title>
 </head>
 <body>
     <header class="header">
-
-        <a class="logo"></a>
+        <div class="container flex">
+        <a href="index.html" class="logo"><img class="logo-img" src="/img/logo.webp" alt="logo"/></a>
         <ul class="header-list">
-            <li class="pages"><a href="index.html">Головна</a></li>
-            <li class="pages"><a href="">Про нас</a></li>
-            <li class="pages"><a href="">Контакти</a></li>
+            <li class="pages"><a class="inter" href="index.html">Головна</a></li>
+            <li class="pages"><a class="inter" href="">Про нас</a></li>
+            <li class="pages"><a class="inter" href="">Контакти</a></li>
         </ul>
         <button class="header-button">Увійти</button>
         <ul class="lang">
-            <li class="lang-li">ENG</li>
-            <li class="lang-li">UA</li>
+            <li class="lang-li"><a class="lang-li-a">ENG</a></li>
+            <li class="lang-li"><a class="lang-li-a">UA</a></li>
         </ul>
+        </div>
     </header>
     <main class="main">
         <section class="section1">
-            <div class="container">
+            <div class="container flex">
 
-                <h1></h1>
-                <p class="main-p-e">Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä hapxì.Säwem nìayoeng!</p>
-                <p class="main-p-u">Хоробрий воїне, звертаюсь до тебе!Твій дух йде з Ейвою, твоє тіло залишається, щоб стати частиною Народу.Борись разом з нами!</p>
+                
+                <div class="maintext">
+                    <h1></h1>
+                <p class="main-p">Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä hapxì.<br>Säwem nìayoeng!</p>
+                <img class="main-img" alt="" src="/img/white-arrow.webp">
+                <p class="main-p u">Хоробрий воїне, звертаюсь до тебе!<br>Твій дух йде з Ейвою,<br>твоє тіло залишається,<br> щоб стати частиною Народу.<br>Борись разом з нами!</p>
+                <button class="button1">Приєднатися до клану</button>
+                    </div>
 
-                <ul class="nets">
+                
+            
+                    <ul class="nets">
                     <li class="nets-li">
-                        <a class="nets-a" href=""></a>
+                        <a class="nets-a" href=""><img class="int" alt="" src="img/inst.webp"></a>
                     </li>
                     <li class="nets-li">
-                        <a class="nets-a" href=""></a>
+                        <a class="nets-a" href=""><img class="int" alt="" src="img/twitter.webp"></a>
                     </li>
                     <li class="nets-li">
-                        <a class="nets-a" href=""></a>
+                        <a class="nets-a" href=""><img class="int" alt="" src="img/youtube.webp"></a>
                     </li>
                 </ul>
-
-                <button class="main-button">Приєднатися до клану</button>
-
             </div>
         </section>
         
         <section class="section2">
             <div class="container">
                 
-                <h1 class="section2-h1">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” </h1>
-                <h5 class="section2-h5">Джейк Саллі</h5>
-                
+                <h1 class="quote">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br> ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” </h1>
+                <h5 class="quote-author">Джейк Саллі</h5>
+                <img class="bird" alt="" src="img/bird.png">
             </div>
         </section>
+
+        <section class="section3">
+            <div class="container">
+
+                <h1></h1>
+                <button class="button2">Дивитись трейлер</button>
+
+            </div>
+        </section>
+        <section class="section4">
+            <div class="container">
+
+                <h1 class="quote">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h1>
+                <h5 class="quote-author">Джейк Саллі</h5>
+                <img class="bird" alt="" src="img/bird.png">
+            </div>
+        </section>
+
+        <section class="section5">
+            <div class="container">
+
+                <h3 class="mova-h3">Вчимо мову На’ві</h3>
+                <ul class="mova-ul">
+                    <li class="mova-li"><p class="mova-p">Привіт</p> <img class="mova-img-arrow1" alt="" src="img/arrow.webp" ><p class="mova-p">Kaltxì</p></li>
+                    <li class="mova-li"><p class="mova-p">Як справи?</p> <img class="mova-img-bird" alt="" src="img/bird.png" ><p class="mova-p">Ngaru lu fpom srak?</p></li>
+                    <li class="mova-li"><p class="mova-p">Все добре</p> <img class="mova-img-arrow2" alt="" src="img/arrow.webp" ><p class="mova-p">Lu fpom</p></li>
+                    <li class="mova-li"><p class="mova-p">Дякую</p> <img class="mova-img-arrow1" alt="" src="img/arrow.webp" ><p class="mova-p">Irayo si </p> </li>
+                    <li class="mova-li"><p class="mova-p">Я бачу тебе</p> <img class="mova-img-bird" alt="" src="img/bird.png" ><p class="mova-p">Oel ngati kameie</p></li>
+                    <li class="mova-li"><p class="mova-p">Слідуй за мною!</p> <img class="mova-img-arrow2" alt="" src="img/arrow.webp" ><p class="mova-p">Nong oet!</p></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section6">
+            <div class="container">
+
+                <h1 class="quote">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h1>
+                <h5 class="quote-author">Нейтірі</h5>
+                <img class="bird" alt="" src="img/bird.png">
+
+            </div>
+        </section>
+
     </main>
+
+    <footer class="footer">
+        <div class="container flex-footer">
+
+            <a href="index.html" class="logo-footer"><img class="footer-logo-img" src="/img/logo.webp" alt="logo"/></a>
+        <div>
+            <ul class="footer-list">
+                <li class="footer-li"><p class="email">Q&A E-mail </p><a href="mailto:avatartwowqa@gmail.com " class="footer-mail">info@devstudio.com</a></li>
+                <li class="footer-li"><p class="email2">Cooperation E-mail</p> <a href="mailto:avatartwowcoop@gmail.com " class="footer-mail">info@devstudio.com</a></li>
+            </ul>
+
+            <p class="rights">©2023 Avatar: The Way Of Water. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
